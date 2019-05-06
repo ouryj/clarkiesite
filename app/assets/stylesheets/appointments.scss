@@ -66,17 +66,23 @@
   .copy {
       font-size: 80%;
   }
-  @media all and (max-width: 450px){
+  @media only screen and(max-width: 800px){
       body {
         
           width: 400px;
-          height: 800px;
+          .body{
+            display: block; 
+        }
+        .container{
+            float: right;
+            margin-top: 20px;
+            width: 375px;
+        }
+        .container, .form, .barberpost {
+            width: 375px;
+        }
+          
       }
-      .body{
-          display: inline-table; 
-      }
-      .container, .form, .barberpost {
-          width: 375px;
-      }
+     
   
   }
