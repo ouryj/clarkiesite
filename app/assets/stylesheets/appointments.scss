@@ -1,0 +1,82 @@
+// Place all the styles related to the appointments controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.heade{
+    background-color: #480BAA;
+    
+  }
+  .nav{
+     text-decoration: none; color: white;
+     margin: 20px;
+  }
+  a:hover{
+      color: blue;
+  }
+  // a:visited{
+  //     color: 
+  // }
+  nav{
+      text-align: center;
+  }
+  header{
+      text-align: center;
+  }
+  #head{
+      color: white; font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  // body{
+  //     background-image: image-url('barber1.jpg')
+  // }
+  .render{
+      width: 400px;
+  }
+  .container, .form, .barberpost{
+      width: 500px; background-color: #6DAEDB; color: white; margin-left: 500px;
+      
+  }
+   .name{
+       width:250px; height: 20px;
+  }
+  #btn,#post{
+      width: 100px; 
+  }
+  .img{
+      height: 300px;
+      width: 300px;
+  }
+  .body{
+      display: inline-flex; margin-top: 20px;
+  }
+  a {
+      color: orangered;
+  }
+  .delete{
+      color: red;
+  }
+  .work{
+      float: right;
+  }
+  .photo{
+      display: inline-flex; background-color:#6DAEDB; color: white; 
+  }
+  .footer {
+      background-color:gainsboro; color: darkslategray;
+  }
+  .copy {
+      font-size: 80%;
+  }
+  @media all and (max-width: 450px){
+      body {
+        
+          width: 400px;
+          height: 800px;
+      }
+      .body{
+          display: inline-table; 
+      }
+      .container, .form, .barberpost {
+          width: 375px;
+      }
+  
+  }

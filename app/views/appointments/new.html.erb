@@ -1,0 +1,16 @@
+<div class='form'>
+
+<h1>Book your appointment below</h1>
+
+<%= form_with(model: @book) do |f| %>
+<p><%= f.label :name %>        </p>
+<p class='pform'><%= f.text_field :name, class:'name' %>   </p> <br>
+<p><%= f.label :Date %>        </p>  
+<p><%= f.date_field :date,class:'name' %>   </p> <br>
+<p><%= f.label :Time %>        </p>   
+<p><%= f.time_field :time,class:'name' %>   </p> <br>
+<p><%= f.label :Phone_Number %></p>   
+<p><%= f.text_field :phone ,class:'name'%>  </p>   <br>
+<%= f.submit 'Book',id:'btn' %>
+<%end%>
+</div>
