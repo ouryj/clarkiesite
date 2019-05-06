@@ -81,7 +81,9 @@
 //   }
 
   @media (max-width: 375px){
+     
       .body {
+          
           display: block;
           height: 812px;
       }
@@ -93,6 +95,7 @@
     }
     .heade {
         width: 100%;
+        position: sticky;
     }
      .form {
          width: 100%;
@@ -128,6 +131,8 @@
     }
 
 }
+
+
 @media (max-width: 768px){
     .body {
         display: block;
@@ -165,4 +170,55 @@
     footer{
         font-size: 0.9rem;
     }
+}
+@media (max-width: 414px){
+    .body {
+          
+        display: block;
+        height: 736px;
+    }
+  .container{
+      float: right;
+      margin-top: 20px;
+      width: 100%;
+      
+  }
+  .heade {
+      width: 100%;
+      position: sticky;
+  }
+   .form {
+       width: 100%;
+       float:right;
+       margin-top: 20px;
+       
+   } 
+   .barberpost {
+      width: 100%;
+      text-align: center;
+
+  }
+  .photo {
+      
+      width: 100%;
+      float:right;
+      margin-top: 20px;
+      display: block;
+      img{
+          width: 100%;
+      }
+
+  }
+  #head {
+      font-size: 1.3rem;
+  }
+  p {
+      font-size: 1.25rem;
+      line-height: 1.5
+  }
+  footer{
+      font-size: 0.10rem;
+  }
+
+
 }
