@@ -65,24 +65,44 @@
   }
   .copy {
       font-size: 80%;
-  }
-  @media only screen and(max-width: 800px){
-      body {
+   }
+//   @media only screen and(max-width: 800px){
+//       body {
         
-          width: 400px;
-          .body{
-            display: block; 
-        }
-        .container{
-            float: right;
-            margin-top: 20px;
-            width: 375px;
-        }
-        .container, .form, .barberpost {
-            width: 375px;
-        }
+//           width: 400px;
+//           .body{
+//             display: block; 
+//         }
+       
           
-      }
+//       }
      
   
-  }
+//   }
+
+  @media (max-width: 600px){
+      .body {
+          display: block;
+      }
+    .container{
+        float: right;
+        margin-top: 20px;
+        width: 100%;
+        
+    }
+     .form, .barberpost {
+        width: 100%;
+        text-align: center;
+
+    }
+    p {
+        font-size: 1.25rem;
+    }
+
+}
+@media (max-width: 800px){
+    p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
